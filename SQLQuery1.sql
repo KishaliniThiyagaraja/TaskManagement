@@ -1,0 +1,6 @@
+SELECT TOP (1000) [Id]
+      ,[Title]
+      ,[Description]
+      ,[DueDate]
+      ,[Priority]
+  FROM [TaskManagment].[dbo].[Task]
