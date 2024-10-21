@@ -257,3 +257,4 @@ X:\UT01188\Angular\2024-10-19\TaskManagment\TaskManagment\obj\Debug\net8.0\refin
 X:\UT01188\Angular\2024-10-19\TaskManagment\TaskManagment\obj\Debug\net8.0\TaskManagment.pdb
 X:\UT01188\Angular\2024-10-19\TaskManagment\TaskManagment\obj\Debug\net8.0\TaskManagment.genruntimeconfig.cache
 X:\UT01188\Angular\2024-10-19\TaskManagment\TaskManagment\obj\Debug\net8.0\ref\TaskManagment.dll
+X:\UT01188\Angular\2024-10-19\TaskManagment\TaskManagment\obj\Debug\net8.0\TaskManagment.sourcelink.json

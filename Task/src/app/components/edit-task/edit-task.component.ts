@@ -52,7 +52,7 @@ export class EditTaskComponent implements OnInit {
   }
 
   cancel() {
-    this.router.navigate(['/']);
+    this.router.navigate(['/tasks']);
   }
 
 
@@ -61,7 +61,7 @@ export class EditTaskComponent implements OnInit {
 
     this.taskService.updateTask(task).subscribe(() => {
       this.toast.success("Task is updated successfully");
-      this.router.navigate(["/"]);
+      this.router.navigate(["/tasks"]);
     });
   }
 

@@ -29,7 +29,7 @@ export class AddTaskComponent {
     let task = this.taskForm.value;
     return this.taskService.createTasks(task).subscribe(data =>{
       alert('Task created successfull');
-      this.router.navigate(['/'])
+      this.router.navigate(['/tasks'])
     }, error=>{
       alert("Task is created failed")
     })
@@ -37,6 +37,6 @@ export class AddTaskComponent {
   }
 
   onCancel() {
-    this.router.navigate(['/']);
+    this.router.navigate(['/tasks']);
   }
 }
